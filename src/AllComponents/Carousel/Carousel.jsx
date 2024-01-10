@@ -1,11 +1,12 @@
 import React from "react";
 import { SwipeCarousel } from "./HoverDevCarousel/SwipeCarousel";
 import ScrollXCarousel from "./HoverDevCarousel/ScrollXCarousel";
+import ScrollCarousel from "./HoverDevCarousel/ScrollXCarousel";
 
 const Carousel = () => {
   return (
     <div>
-      <section className="py-20 h-[70vh] mx-auto pb-[1500px]">
+      <section className="py-96 h-[70vh] mx-auto pb-[1500px]">
         <h2 className="text-5xl uppercase text-center font-serif mb-10">
           Cards
         </h2>
@@ -31,11 +32,8 @@ const Carousel = () => {
               </ul>
             </div>
           </div>
-
-
-          {/* <div className="h-[600px]"></div>
-          <div className="w-full mx-auto shadow-2xl rounded-lg py-20 bg-red-700">
-            <ScrollXCarousel />
+          <div className="w-full mx-auto shadow-2xl rounded-lg ">
+            <ScrollCarousel />
             <div className="p-5">
               <h4 className="text-xl uppercase font-serif underline">
                 Need Installation
@@ -52,7 +50,9 @@ const Carousel = () => {
               </ul>
             </div>
           </div>
-          <div className="h-[600px]"></div> */}
+
+
+
         </div>
       </section>
     </div>

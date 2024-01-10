@@ -1,7 +1,7 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 
-const ScrollCarousel = () => {
+const Example = () => {
   return (
     <div className="bg-neutral-800">
       <div className="flex h-48 items-center justify-center">
@@ -63,7 +63,7 @@ const Card = ({ card }) => {
   );
 };
 
-export default ScrollCarousel;
+export default Example;
 
 const cards = [
   {
